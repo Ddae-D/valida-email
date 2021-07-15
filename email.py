@@ -34,7 +34,3 @@ class EmailValidate(): #class
 w = Welcome().welcome()
 arg = input("*** enter your email: ").casefold()   
 e = EmailValidate(arg).controlEmail()
-"""arg = input("enter you email: ") #recept email
-emaile = EmailValidate(arg) #sent email to constructor
-emaile.testEmail() #start function hehe
-"""
