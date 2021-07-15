@@ -1,4 +1,4 @@
-import numpy as np
+#code of the email validation
 import math as mt
 #------------------------------------------------------------------------------------------------
 class Welcome():
