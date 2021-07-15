@@ -29,13 +29,11 @@ class EmailValidate(): #class
     def controlEmail(self): #function public, tell to system, give me to __controlEmail
         self.__controlEmail()
 #------------------------------------------------------------------------------------------------
-"""class Test(Welcome):
-    print("Ejemplo clase Test")"""
 #------------------------------------------------------------------------------------------------
 w = Welcome().welcome()
 #arg = input("*** enter your email: ").casefold()   
 fileEmail= open("textOfEmail.txt","r")
 arg = fileEmail.read().casefold()
-print(arg)
+#print(arg)
 e = EmailValidate(arg).controlEmail()
 fileEmail.close()
